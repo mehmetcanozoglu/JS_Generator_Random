@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+    background-color: #5373ee;
+}
+
+.container{
+    background-color: #ffffff;
+    width: min(500px, 90%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button{
+    background-color: #5373ee;
+    padding: 1rem 0.5rem;
+    width: 100%;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    margin: 2rem 0 1rem 0;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+#result{
+    font-size: 1.2rem;
+}
